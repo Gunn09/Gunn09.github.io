@@ -1,0 +1,133 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #F1F1F1;
+	font-size: 15px;
+}
+.header {
+	text-align: center;
+	line-height: 40px;
+}
+.header h1 {
+	font-size: 38px;
+}
+.header p {
+	font-size: 16px;
+}
+.unknown {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.main {
+	width: 66.66666%;
+	float: left;
+}
+
+.article {
+	background-color: #ffffff;
+	box-shadow: 5px 5px 15px #999;
+}
+
+.text {
+	padding: 14px;
+}
+
+.rec-comment {
+	background-color: #000000;
+	padding: 2px 8px;
+	color: #ffffff;
+}
+
+.cir-comment {
+	background-color: #000000;
+	padding: 2px 8px;
+	color: #ffffff;
+	border-radius: 15px;
+}
+
+.title-date {
+	opacity: 0.6;
+}
+
+aside {
+	width: 33.33334%;
+	float: left;
+}
+.posts {
+	padding-top: 20px;
+	padding-bottom: 14px;
+	background-color: #F1F1F1;
+	padding-left: 16px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.post {
+	line-height: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 16px;
+	border-top: ridge;
+	border-width: 0.1px;
+
+}
+.post:first-child {
+	border-top:  none;
+}
+.post:hover {
+	background-color: #999;
+}
+
+.image {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 20px;
+}
+
+.tags {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 16px;
+	padding-top: 8px;
+	line-height: 30px;
+	font-size: 13px;
+}
+
+.tags p {
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #F1F1F1;
+}
+
+.tags .travel {
+	background-color: #000000;
+	color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+footer {
+	height: 180px;
+	background-color: #999;
+	clear: left;
+}
+
+.foot {
+	padding-top: 30px;
+}
+
+@media screen and (max-width:  850px) {
+	.main {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+}
