@@ -1,1 +1,2 @@
-# gunn09.githubio
+# Simple Blog Design 
+HTML, CSS & JS
